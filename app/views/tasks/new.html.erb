@@ -1,0 +1,11 @@
+<%=  simple_form_for @task do |f| %>
+
+ <%= f.input :title%>
+  <%= f.submit :details%>
+   <%= f.submit :completed%>
+ <%= f.submit%>
+<% end %>
+
+<%= link_to "Go back to list of tasks", tasks_path %>
+
+
